@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DishDive
+
+![DishDive Logo](path/to/logo.png) <!-- Replace with actual logo path -->
+
+**DishDive** is a recipe sharing and recommendation platform designed for food enthusiasts to discover, share, and enjoy a diverse range of culinary creations. With a user-friendly interface and a rich set of features, DishDive brings together a community of food lovers eager to explore new recipes and share their favorites.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **User Sign-Up and Profiles:**
+  - Create personalized accounts to upload, save, and manage your recipes.
+- **Recipe Categorization and Search:**
+
+  - Easily browse recipes by categories and utilize advanced search filters for quick access to your favorite dishes.
+
+- **Personalized Recommendations:**
+
+  - Discover new recipes tailored to your taste with our recommendation engine based on your past searches.
+
+- **Community Engagement:**
+
+  - Interact with fellow food lovers by commenting on, liking, and saving recipes.
+
+- **Email Notifications:**
+
+  - Stay informed with updates on recipe uploads, comments, and more through email notifications.
+
+- **Spoonacular API Integration:**
+  - Access a wealth of recipe suggestions and nutritional information through the Spoonacular API.
+
+## Technology Stack
+
+- **Frontend:**
+
+  - React
+  - Next.js
+  - Tailwind CSS
+
+- **Backend:**
+
+  - Node.js
+  - Express
+
+- **Database:**
+  - PostgreSQL
 
 ## Getting Started
 
-First, run the development server:
+To set up the DishDive project locally, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [PostgreSQL](https://www.postgresql.org/) (for database)
+
+### Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/dishdive.git
+cd dishdive
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
