@@ -1,9 +1,12 @@
 "use client";
 
 import axios from "axios";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 const SignupPage = () => {
+  const router = useRouter();
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -17,9 +20,15 @@ const SignupPage = () => {
       });
       if (response) {
         console.log(response);
+        toast.success(response.data.message);
+        setUsername("");
+        setEmail("");
+        setPassword("");
+        router.push("/login");
       }
     } catch (error) {
       console.log(error);
+      toast.error(`Something went wrong`);
     }
   };
   return (
