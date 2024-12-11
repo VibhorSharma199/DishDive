@@ -51,7 +51,7 @@
   - Express
 
 - **Database:**
-  - PostgreSQL
+  - MongoDb
 
 ## Getting Started
 
